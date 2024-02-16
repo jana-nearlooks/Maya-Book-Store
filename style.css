@@ -2844,7 +2844,7 @@ a#scrollUp:hover {
     position: relative;
     top: 100%;
     width: 100%;
-    z-index: 999;
+    z-index: 5;
 }
 
 .category-menu ul li.top-b {
