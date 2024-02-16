@@ -842,7 +842,7 @@ body {
 /*----------------------------------------*/
 
 .main-menu-area {
-    background: #000000 none repeat scroll 0 0;
+    background: #04847E none repeat scroll 0 0;
 }
 
 .main-menu-area.sticky {
@@ -2609,7 +2609,7 @@ footer {
 }
 
 a#scrollUp {
-    background: #333 none repeat scroll 0 0;
+    background:#FD6F3B  none repeat scroll 0 0;
     border: 2px solid #fff;
     border-radius: 100%;
     bottom: 35px;
@@ -5923,7 +5923,7 @@ nav.menu .cr-dropdown ul {
 
 .contact-info ul li span {
     font-weight: 700;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     color: #333;
 }
 
@@ -5931,7 +5931,7 @@ nav.menu .cr-dropdown ul {
     color: #333;
     text-decoration: none;
     transition: .3s;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -5952,7 +5952,7 @@ nav.menu .cr-dropdown ul {
     padding: 12px 10px;
     width: 100%;
     color: #333;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -5988,7 +5988,7 @@ nav.menu .cr-dropdown ul {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     width: 140px;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6028,16 +6028,18 @@ nav.menu .cr-dropdown ul {
     font-weight: 700;
     line-height: 21px;
     margin-bottom: 20px;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
+    padding-left: 100px;
 }
 
 .about-content h3 span,
 .single-misson h3 span {
     font-weight: 500;
     padding-left: 10px;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
+   
 }
 
 .about-content p,
@@ -6045,7 +6047,7 @@ nav.menu .cr-dropdown ul {
     color: #4a4d4f;
     font-size: 15px;
     line-height: 25px;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6058,7 +6060,7 @@ nav.menu .cr-dropdown ul {
     color: #444;
     text-decoration: none;
     transition: .3s;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6074,20 +6076,21 @@ nav.menu .cr-dropdown ul {
 
 .counter-area {
     background: rgba(0, 0, 0, 0) url("img/banner/38.jpg") repeat scroll center center;
+    height:300px;
 }
 
 .single-counter h2 {
     font-size: 40px;
     color: #444;
     font-weight: 600;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
 .single-counter span {
     font-size: 15px;
     text-transform: uppercase;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6100,7 +6103,7 @@ nav.menu .cr-dropdown ul {
 
 .team-title h2 span {
     font-weight: 700;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6112,14 +6115,14 @@ nav.menu .cr-dropdown ul {
     font-size: 20px;
     margin: 0;
     font-weight: 500;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
 .team-content span {
     color: #666;
     display: block;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 15px;
     font-weight: 400;
     margin: 3px 0 0;
@@ -6196,7 +6199,7 @@ nav.menu .cr-dropdown ul {
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6210,7 +6213,7 @@ nav.menu .cr-dropdown ul {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 25px;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -6221,7 +6224,7 @@ nav.menu .cr-dropdown ul {
     display: inline-block;
     text-decoration: none;
     transition: .3s;
-    font-family: 'Rufina', serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
 
@@ -7622,6 +7625,15 @@ p.lost-password a:hover {
 
 .compare-table .table tbody tr td.pro-ratting i {
     color: #c29958;
+}
+.text{
+    text-align: justify;
+}
+.center{
+    padding-left: 145px;
+}
+.close{
+    justify-content: end;
 }
 
 /*------ end Compare Page Wrapper -----*/
