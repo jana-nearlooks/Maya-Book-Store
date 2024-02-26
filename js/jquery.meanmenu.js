@@ -205,6 +205,8 @@
 											jQuery('.mean-nav ul ul').hide();
 									}
 
+									
+
 									// add last class to tidy up borders
 									jQuery('.mean-nav ul li').last().addClass('mean-last');
 									$navreveal.removeClass("meanclose");
