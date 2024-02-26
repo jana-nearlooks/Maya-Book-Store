@@ -846,11 +846,11 @@ body {
 }
 
 .main-menu-area.sticky {
-    background: rgba(0, 0, 0, 0.48) none repeat scroll 0 0;
+    background:  #04847E none repeat scroll 0 0;
 }
 
 .main-menu-area.sticky-header-1.sticky:hover {
-    background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+    background: #04847E none repeat scroll 0 0;
 }
 
 .menu-area {
@@ -1104,14 +1104,17 @@ body {
     margin-top: 4px;
 }
 
-.single-banner .banner-text {}
+.single-banner .banner-text {
+   
+}
 
 .single-banner .banner-text h4 {
     color: #222;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 2px;
+   
 }
 
 .single-banner .banner-text p {
@@ -1911,7 +1914,7 @@ body {
     line-height: 24px;
     margin-top: 35px;
     text-align: right;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     color: #333;
 }
 
@@ -2242,7 +2245,7 @@ body {
 
 .testimonial-text p {
     color: #fff;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -2323,7 +2326,7 @@ body {
 .post-content h3 a {
     color: #333;
     display: block;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 24px;
@@ -2336,7 +2339,7 @@ body {
 
 .post-content p {
     border-bottom: 1px solid #e5e5e5;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -2428,7 +2431,7 @@ body {
 
 .twitter-text p {
     color: #333;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     line-height: 21px;
     margin: 0;
@@ -2437,7 +2440,7 @@ body {
 
 .twitter-text a {
     color: #FD6F3B;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     font-style: italic;
     padding-top: 3px;
@@ -2748,7 +2751,7 @@ a#scrollUp:hover {
     top: 0;
     width: 214px;
     color: #a9a9a9;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 .pos-search .bootstrap-select {
@@ -2984,7 +2987,7 @@ a#scrollUp:hover {
     line-height: 60px;
     text-transform: capitalize;
     margin: 0;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 .slider-content-3 p {
@@ -2999,7 +3002,7 @@ a#scrollUp:hover {
     margin-right: 10px;
     padding: 5px;
     vertical-align: top;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 .slider-content-3 p span.sale2 {
@@ -6478,7 +6481,7 @@ nav.menu .cr-dropdown ul {
 .cart_totals h2 {
     border-bottom: 2px solid #333;
     display: inline-block;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     font-weight: 400;
     margin: 0 0 35px;
@@ -6550,7 +6553,7 @@ nav.menu .cr-dropdown ul {
 
 .shipping a {
     color: #333;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 13px;
     font-weight: 400;
 }
@@ -6603,7 +6606,7 @@ nav.menu .cr-dropdown ul {
     background-color: #f7f6f7;
     border-top: 3px solid #FD6F3B;
     color: #333;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 14px;
     font-weight: 400;
     list-style: outside none none;
@@ -7209,11 +7212,11 @@ p.lost-password a:hover {
     color: #fff;
 }
 
-#productModal {
+.productModal {
     padding-right: 0 !important;
 }
 
-#productModal .modal-dialog {
+.productModal .modal-dialog {
     margin: 8% auto;
     max-width: 960px;
 }
@@ -7229,7 +7232,7 @@ p.lost-password a:hover {
 
 .modal-pro-content h3 {
     color: #333;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 1;
@@ -7243,7 +7246,7 @@ p.lost-password a:hover {
 
 .modal-pro-content .price>span {
     color: #FD6F3B;
-    font-family: "Rufina", serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 28px;
     font-style: italic;
     font-weight: 600;
@@ -7635,5 +7638,7 @@ p.lost-password a:hover {
 .close{
     justify-content: end;
 }
-
+.active1{
+    color:#e74c3c !important;
+}
 /*------ end Compare Page Wrapper -----*/
